@@ -4,161 +4,91 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-1" value="批发商/商户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="142" width="148" height="49" as="geometry" />
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-25" value="批发商/商户" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="599" y="20" width="118" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-2" value="上游供货商" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="275" y="225" width="140" height="49" as="geometry" />
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-26" value="上游供货商" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="251" y="142" width="110" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-3" value="供应链金融平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="825" y="67" width="172" height="49" as="geometry" />
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-27" value="仓储物流" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="38" y="264" width="94" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-4" value="银行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1104" y="280" width="92" height="49" as="geometry" />
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-28" value="供应链金融平台" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="350" y="386" width="142" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-5" value="仓储物流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="562" y="225" width="124" height="49" as="geometry" />
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-29" value="银行" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="390" y="508" width="62" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-2">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-30" value="① 采购" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-25" target="Ly2OCtmQy8XmOUG2WTVc-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="222" y="206" />
+              <mxPoint x="306" y="106" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=-0.01;entryX=0.07;entryY=0;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-3">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-31" value="② 在途/入库" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.81;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-26" target="Ly2OCtmQy8XmOUG2WTVc-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="222" y="40" />
-              <mxPoint x="756" y="40" />
+              <mxPoint x="85" y="228" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=-0.01;entryX=0.41;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-4">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-32" value="③ 数据同步" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0;entryY=0.28;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-27" target="Ly2OCtmQy8XmOUG2WTVc-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="222" y="20" />
-              <mxPoint x="1051" y="20" />
+              <mxPoint x="20" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.12;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-2" target="Ly2OCtmQy8XmOUG2WTVc-5">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-33" value="④ 融资申请" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=1;entryY=0.02;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-25" target="Ly2OCtmQy8XmOUG2WTVc-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="489" y="212" />
+              <mxPoint x="604" y="106" />
+              <mxPoint x="604" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=-0.01;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-3">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-34" value="⑤ 初审" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-28" target="Ly2OCtmQy8XmOUG2WTVc-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-35" value="⑤ 缴服务费" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=1;entryX=1;entryY=0.2;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-25" target="Ly2OCtmQy8XmOUG2WTVc-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="756" y="60" />
+              <mxPoint x="713" y="106" />
+              <mxPoint x="713" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.38;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-3" target="Ly2OCtmQy8XmOUG2WTVc-4">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-36" value="⑥ 放款" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.14;entryX=1;entryY=0.81;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-29" target="Ly2OCtmQy8XmOUG2WTVc-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1051" y="92" />
+              <mxPoint x="527" y="472" />
+              <mxPoint x="527" y="228" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.75;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-2">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-37" value="⑦ 委托监管/中登登记" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.39;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-27" target="Ly2OCtmQy8XmOUG2WTVc-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1051" y="352" />
-              <mxPoint x="489" y="352" />
+              <mxPoint x="85" y="472" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.07;entryX=0.23;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-4">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-38" value="⑧ 还款" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=1;entryX=0.99;entryY=0.39;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-25" target="Ly2OCtmQy8XmOUG2WTVc-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="756" y="206" />
-              <mxPoint x="1051" y="206" />
+              <mxPoint x="777" y="106" />
+              <mxPoint x="777" y="472" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=0.99;entryX=0.72;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-5">
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-39" value="⑨ 解押/出库通知" style="curved=1;startArrow=none;endArrow=block;exitX=-0.01;exitY=0.27;entryX=1;entryY=0.85;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-29" target="Ly2OCtmQy8XmOUG2WTVc-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1051" y="372" />
-              <mxPoint x="756" y="372" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-15" value="① 采购" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0.99;entryX=0;entryY=0.72;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="222" y="269" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-16" value="② 在途/入库" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0;entryY=0.67;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-2" target="Ly2OCtmQy8XmOUG2WTVc-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="489" y="269" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-17" value="③ 数据同步" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="756" y="92" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-18" value="④ 融资申请" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=-0.01;entryX=0;entryY=0.86;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="222" y="123" />
-              <mxPoint x="756" y="123" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-19" value="⑤ 初审" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0.11;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-3" target="Ly2OCtmQy8XmOUG2WTVc-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1051" y="237" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-20" value="⑤ 缴服务费" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.2;entryY=1;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="756" y="166" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-21" value="⑥ 放款" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=0.99;entryX=0.66;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1051" y="403" />
-              <mxPoint x="489" y="403" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-22" value="⑦ 委托监管/中登登记" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="756" y="269" />
-              <mxPoint x="1051" y="269" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-23" value="⑧ 还款" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0.99;entryX=0;entryY=0.64;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="222" y="320" />
-              <mxPoint x="1051" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-24" value="⑨ 解押/出库通知" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=0.99;entryX=0.64;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1051" y="435" />
-              <mxPoint x="756" y="435" />
+              <mxPoint x="250" y="472" />
+              <mxPoint x="250" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
