@@ -1,23 +1,23 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="5lJbbZhBnJKjq4w-hgAE">
-    <mxGraphModel dx="1426" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-25" value="批发商/商户" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="599" y="20" width="118" height="49" as="geometry" />
+          <mxGeometry x="601" width="118" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-26" value="上游供货商" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="251" y="142" width="110" height="49" as="geometry" />
+          <mxGeometry x="253" y="122" width="110" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-27" value="仓储物流" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="38" y="264" width="94" height="49" as="geometry" />
+          <mxGeometry x="40" y="244" width="94" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-28" value="供应链金融平台" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="350" y="386" width="142" height="49" as="geometry" />
+          <mxGeometry x="352" y="366" width="142" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-29" value="银行" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="390" y="508" width="62" height="49" as="geometry" />
+          <mxGeometry x="392" y="488" width="62" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-30" value="① 采购" style="startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-25" target="Ly2OCtmQy8XmOUG2WTVc-26">
           <mxGeometry relative="1" as="geometry" />
@@ -41,7 +41,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-37" value="⑦ 委托监管/中登登记" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.39;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-27" target="Ly2OCtmQy8XmOUG2WTVc-29">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="513" />
+              <mxPoint x="392" y="513" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ly2OCtmQy8XmOUG2WTVc-38" value="⑧ 还款" style="startArrow=none;endArrow=block;exitX=0.91;exitY=1;entryX=0.99;entryY=0.39;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-25" target="Ly2OCtmQy8XmOUG2WTVc-29">
           <mxGeometry relative="1" as="geometry" />
