@@ -4,6 +4,94 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="swZWUBKMBtsmFnCieKXm-61" value="上游供货商" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="31" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-62" value="仓储物流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1188" y="99" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-63" value="供应链金融平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="562" y="68" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-64" value="批发商 商户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="262" y="141" width="145" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-65" value="银行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="877" y="156" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-66" value="①采购" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.99;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-61" target="swZWUBKMBtsmFnCieKXm-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-67" value="②在途/入库" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.07;entryX=0.18;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-61" target="swZWUBKMBtsmFnCieKXm-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="20" />
+              <mxPoint x="1079" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-68" value="③数据同步" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.44;entryX=0;entryY=0.05;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-61" target="swZWUBKMBtsmFnCieKXm-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="51" />
+              <mxPoint x="484" y="51" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-69" value="④ 融资" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=-0.01;entryX=0;entryY=0.65;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-64" target="swZWUBKMBtsmFnCieKXm-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-70" value="⑤ 进件 初审" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.15;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-63" target="swZWUBKMBtsmFnCieKXm-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-71" value="⑤ 缴纳服务费" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.33;entryX=0.09;entryY=0.99;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-64" target="swZWUBKMBtsmFnCieKXm-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-72" value="⑦委托监管 中登网登记" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=1;entryY=0.54;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-62" target="swZWUBKMBtsmFnCieKXm-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="187" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-73" value="⑧ 还款" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.85;entryX=0.93;entryY=0.99;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-65" target="swZWUBKMBtsmFnCieKXm-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="224" />
+              <mxPoint x="484" y="224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-74" value="⑨解押出 库通知" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=0.01;entryX=0;entryY=0.11;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-65" target="swZWUBKMBtsmFnCieKXm-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="swZWUBKMBtsmFnCieKXm-75" value="权转移 放款" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="swZWUBKMBtsmFnCieKXm-64" target="swZWUBKMBtsmFnCieKXm-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
