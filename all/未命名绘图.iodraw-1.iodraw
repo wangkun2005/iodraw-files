@@ -1,0 +1,168 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="5lJbbZhBnJKjq4w-hgAE">
+    <mxGraphModel dx="1426" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-1" value="批发商/商户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="142" width="148" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-2" value="上游供货商" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="225" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-3" value="供应链金融平台" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="825" y="67" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-4" value="银行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="280" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-5" value="仓储物流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="562" y="225" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=-0.01;entryX=0.07;entryY=0;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="40" />
+              <mxPoint x="756" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=-0.01;entryX=0.41;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="20" />
+              <mxPoint x="1051" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.12;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-2" target="Ly2OCtmQy8XmOUG2WTVc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=-0.01;entryX=0;entryY=0.14;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.38;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-3" target="Ly2OCtmQy8XmOUG2WTVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1051" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.75;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1051" y="352" />
+              <mxPoint x="489" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.07;entryX=0.23;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="206" />
+              <mxPoint x="1051" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=0.99;entryX=0.72;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1051" y="372" />
+              <mxPoint x="756" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-15" value="① 采购" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0.99;entryX=0;entryY=0.72;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-16" value="② 在途/入库" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0;entryY=0.67;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-2" target="Ly2OCtmQy8XmOUG2WTVc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-17" value="③ 数据同步" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="92" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-18" value="④ 融资申请" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=-0.01;entryX=0;entryY=0.86;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="123" />
+              <mxPoint x="756" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-19" value="⑤ 初审" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1;entryX=0.11;entryY=-0.01;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-3" target="Ly2OCtmQy8XmOUG2WTVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1051" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-20" value="⑤ 缴服务费" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.2;entryY=1;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-21" value="⑥ 放款" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=0.99;entryX=0.66;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1051" y="403" />
+              <mxPoint x="489" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-22" value="⑦ 委托监管/中登登记" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-5" target="Ly2OCtmQy8XmOUG2WTVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="269" />
+              <mxPoint x="1051" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-23" value="⑧ 还款" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0.99;entryX=0;entryY=0.64;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-1" target="Ly2OCtmQy8XmOUG2WTVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="320" />
+              <mxPoint x="1051" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ly2OCtmQy8XmOUG2WTVc-24" value="⑨ 解押/出库通知" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=0.99;entryX=0.64;entryY=0.99;rounded=0;" edge="1" parent="1" source="Ly2OCtmQy8XmOUG2WTVc-4" target="Ly2OCtmQy8XmOUG2WTVc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1051" y="435" />
+              <mxPoint x="756" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
